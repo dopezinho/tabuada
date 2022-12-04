@@ -1,4 +1,40 @@
 body {
     background-color: #fffccc;
     color: #9747e1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    font-size: 5px;
+    padding: 10px;
+}
+
+section {
+    background-color: #f7f2b9;
+    color: #9747e1;
+    padding: 20px;
+    border-radius: 60px;
+    width: 50%;
+    margin: auto;
+}
+
+#bontao {
+    background-color: #fffccc;
+    color: #ab0b0b;
+    border: 0px;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    margin: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 20px;
+    border-style: none;
 }
